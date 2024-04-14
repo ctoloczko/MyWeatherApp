@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="src/styles.css" />
+    <title>My weather application</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/axios@1.6.7/dist/axios.min.js"></script>  
+  
+  </head>
+  <body>
+    <div class="weather-app">
+     <header>
+      <form id="weather-form">
+        <input
+          type="search"
+          placeholder="Enter a city.."
+          required
+          class="search-field"
+          id="enter-city"
+        />
+        <input type="submit" value="Search" class="search-button" />
+      </form>
+    </header>
+    <main>
+      <div class="current-weather">
+        <div>
+          <h1 id="city-name">Your city</h1>
+          <p>
+            <span id="day-name">Friday</span> <span id="current-time">15:32</span>, moderate rain <br />
+            Humidity: <strong>87%</strong>, Wind: <strong>7.2km/h</strong>
+          </p>
+        </div>
+        <div class="current-temperature" id="current-temperature">☀️ 14°C </div>
+      </div>
+     <br>
+    </main>
+    <footer>
+      <p>
+        This project was coded by
+        <a href="#" target="_blank">Celina</a> and is
+        <a href="#" target="_blank"> on GitHub</a> and
+        <a href="#" target="_blank">hosted on Netlify</a>
+      </p>
+      
+    </footer>
+  </div>
+</div>
+<script src="src/script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,107 @@
+body {
+  font-family: "Mulish", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
+  color: #113f67;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+}
+
+.current-temperature {
+  font-size: 60px;
+  text-decoration: solid;
+  font-weight: 600;
+}
+
+.current-weather {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.current-weather h1 {
+  font-size: 45px;
+  font-weight: 600;
+}
+
+.current-weather p {
+  line-height: 23px;
+  font-weight: 300;
+  font-size: 17px;
+}
+
+.current-weather strong {
+  color: #bc2525;
+}
+
+footer {
+  padding: 0 auto;
+  font-weight: 300;
+  font-size: 13px;
+  color: #1d3b68;
+  opacity: 0.6;
+}
+
+footer a {
+  color: #142b4d;
+}
+
+footer a :visited {
+  color: #6e96d3;
+}
+
+form {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.search-button {
+  background-color: #38598b;
+  color: #e7eaf6;
+  border-radius: 10px;
+  font-size: 16px;
+  padding: 5px 10px;
+  border: none;
+  cursor: pointer;
+  box-shadow: 4px 4px 9px rgba(56, 89, 139, 0.2);
+  font-family: "Mulish", sans-serif;
+}
+
+.search-field {
+  padding: 5px 10px;
+  height: 40px;
+  border-radius: 7px;
+  border: 0.5px solid #38598b;
+  font-size: 16px;
+  box-sizing: border-box;
+  width: 100%;
+  margin-right: 5px;
+  font-family: "Mulish", sans-serif;
+  background: linear-gradient(
+    109.6deg,
+    rgb(204, 228, 247) 11.2%,
+    rgb(237, 246, 250) 100.2%
+  );
+  box-shadow: 4px 4px 9px rgba(56, 89, 139, 0.2);
+}
+
+.search-field:focus {
+  border: 1px solid #38598b;
+}
+
+.weather-app {
+  border: solid 0.5px #38598b;
+  padding: 25px;
+  border-radius: 10px;
+  background-color: #ebf4f9;
+}
